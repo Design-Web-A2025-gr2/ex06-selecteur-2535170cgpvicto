@@ -27,7 +27,7 @@
     border-radius: 15px;
     block-size: 600px;
     margin: 0px 300px;
-    
+    padding: 20px;
     box-shadow: 4px 4px 7px black;
     background-image: url(../images/ex04_image_fond.jpg);
     background-size: cover;
@@ -43,8 +43,4 @@ a:hover {
     background-color: yellow; 
     text-decoration: none;
     
-}
-
-#liste {
-    margin: 20px;
 }
