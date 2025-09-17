@@ -1,0 +1,50 @@
+#titrePage {
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+.paragraphe {
+    font-size: 2em;
+    font-style: italic;
+    text-align: justify;
+}
+
+
+#paragraphe1::first-letter {
+        font-size: 3em;
+        color: purple;
+}
+
+.paragraphe::first-letter {
+    font-size: 3em;
+    color: green;
+}
+
+.consignes {
+    color: blueviolet;
+    border: 2px solid #daa520;
+    border-radius: 15px;
+    block-size: 600px;
+    margin: 0px 300px;
+    
+    box-shadow: 4px 4px 7px black;
+    background-image: url(../images/ex04_image_fond.jpg);
+    background-size: cover;
+    font-size: 1.5em;
+}
+
+a {
+    position: relative;
+    text-decoration: underline wavy red; 
+}
+
+a:hover {
+    background-color: yellow; 
+    text-decoration: none;
+    
+}
+
+#liste {
+    margin: 20px;
+}
